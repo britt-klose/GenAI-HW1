@@ -19,13 +19,13 @@ Given a model that classifies points as either "Land" or "Sea". Extend the model
 
 **Update the Plotting Function:**
 
-    - Modify the plot_points function to include a new color and legend for "Coastline" points.
-    - Plot the test points with the updated classification.
+      - Modify the plot_points function to include a new color and legend for "Coastline" points.
+      - Plot the test points with the updated classification.
   
 **Test the Implementation:**
 
-     -  Define a new set of test points that include points close to land masses.
-     -  Print the classifications and visualize the results.
+       -  Define a new set of test points that include points close to land masses.
+       -  Print the classifications and visualize the results.
 
 
 # Problem 2: Likelihood-Based Classification
@@ -38,18 +38,19 @@ Modify the classification method to use likelihoods calculated based on distance
   - Update the main execution block to use the new classification method and visualize the results.
 
 **Steps to Complete the Exercise**
+
   **Calculate Likelihoods:**
 
-    - Ensure the calculate_likelihoods function is correctly computing the likelihoods for all grid points.
+      - Ensure the calculate_likelihoods function is correctly computing the likelihoods for all grid points.
 
   **Modify the Classification Function:**
-
-    - Update the classify_point function to classify points based on their likelihood of being land.
-    - Use a threshold value to determine the classification.
+  
+      - Update the classify_point function to classify points based on their likelihood of being land.
+      - Use a threshold value to determine the classification.
 
   **Update the Plotting Function:**
 
-    - Ensure the plot_points function can handle and visualize the new classification method.
+      - Ensure the plot_points function can handle and visualize the new classification method.
 
   **Test the Implementation:**
   
